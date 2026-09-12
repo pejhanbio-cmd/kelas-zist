@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>کلاس زیست من</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <button id="menu-toggle" class="icon-btn menu-btn" aria-label="منو">☰</button>
+
+  <a href="#/" class="brand">
+    <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
+      <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#8db86f"/>
+          <stop offset="100%" stop-color="#3a5230"/>
+        </linearGradient>
+      </defs>
+      <path d="M10 4 C 10 14, 30 14, 30 24 C 30 34, 10 34, 10 40"
+            stroke="url(#g1)" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      <path d="M30 4 C 30 14, 10 14, 10 24 C 10 34, 30 34, 30 40"
+            stroke="url(#g1)" stroke-width="2.4" fill="none" stroke-linecap="round"
+            opacity="0.6"/>
+      <line x1="13" y1="10" x2="27" y2="10" stroke="#6b8e5a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="13" y1="20" x2="27" y2="20" stroke="#6b8e5a" stroke-width="1.6" stroke-linecap="round"/>
+      <line x1="13" y1="30" x2="27" y2="30" stroke="#6b8e5a" stroke-width="1.6" stroke-linecap="round"/>
+    </svg>
+    <span class="brand-text">کلاس زیست من</span>
+  </a>
+
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="search" id="search" placeholder="جستجو در درسها..." autocomplete="off">
+  </div>
+
+  <button id="theme-toggle" class="icon-btn" aria-label="تغییر حالت">🌙</button>
+</header>
+
+<div class="layout">
+  <aside id="sidebar" class="sidebar">
+    <a href="#/" class="nav-home">🏠 خانه</a>
+    <nav id="nav"></nav>
+  </aside>
+
+  <main id="content" class="content"></main>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
