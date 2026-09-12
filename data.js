@@ -17,7 +17,14 @@ const data = {
           title: 'فصل ۱ — دنیای زنده',
           lessons: [
             { title: 'گفتار ۱: زیست‌شناسی چیست؟', content: `` },
-            { title: 'گفتار ۲: گسترهٔ حیات', content: `` },
+            { 
+  title: 'گفتار ۲: گسترهٔ حیات', 
+  content: `
+    <h3>📄 نمونه سوال این درس</h3>
+    <p>نمونه سوال این گفتار را می‌توانی از لینک زیر دانلود کنی:</p>
+    <p><a href="files/Azmon.pdf" target="_blank" style="display:inline-block; padding:0.7rem 1.4rem; background:#6b8e5a; color:#fff; text-decoration:none; border-radius:999px; font-weight:700;">📥 دانلود نمونه سوال (PDF)</a></p>
+  ` 
+},
             { title: 'گفتار ۳: یاخته و بافت در بدن انسان', content: `` }
           ]
         },
